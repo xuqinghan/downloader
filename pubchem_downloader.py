@@ -40,5 +40,5 @@ if __name__ == '__main__':
     fname_urls_txt = args.fname_urls_txt
     #fname_urls_txt = './tests/urls.txt'
     urls = load_urls(fname_urls_txt)
-    print(urls)
+    print(urls, len(urls))
     download(urls, PATH_SAVE)
